@@ -178,6 +178,7 @@ h3 {
   height: 251px;
   top: 1628px;
   background-color: #2f303a;
+  padding-left: 250px;
 }
 .basement-address p {
   width: 207px;
@@ -310,7 +311,7 @@ h3 {
   cursor: pointer;
   display: flex;
   align-items: center;
-  padding-left: 200px;
+  padding-left: 250px;
   width: 100%;
 
 }
@@ -398,3 +399,28 @@ h3 {
   font-size: 14px; 
   text-align: center;
 }
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+}
+
+/* .member-info p{
+margin-left: 25px;
+}
+ .member-info h3{
+  margin-left: 60px;
+  } */ 
+
+  .contact-info {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 20px; 
+    padding: 20px; 
+    background-color: #ECECEC;
+    border: 1px;
+  }
+
+

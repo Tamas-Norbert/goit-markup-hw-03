@@ -11,7 +11,7 @@
       <span style="color: #2196f3">Web</span>
       <span style="color: #000000">Studio</span>
       <nav class="top-line">
-        <ul>
+        <ul class="nav-list">
           <li>
             <a href="index.html" class="nav-link current">Studio</a>
           </li>
@@ -27,9 +27,10 @@
     ><br />
     ><br />
 
-    <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a
-    ><br />
-    <a class="contacts" href="tel:+1 212-772-4150">+1 212-772-4150</a>
+    <div class="contact-info">
+      <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="contacts" href="tel:+1 212-772-4150">+1 212-772-4150</a>
+    </div>
 
     <main>
       <section>
@@ -38,9 +39,11 @@
             EFFECTIVE SOLUTIONS FOR <br />
             YOUR BUSINESS
           </h1>
-          <button type="button" class="request-service">
-            Request our service
-          </button>
+          <div class="button-container">
+            <button type="button" class="request-service">
+              Request our service
+            </button>
+          </div>
         </div>
       </section>
 
@@ -114,7 +117,8 @@
         <h2>Our Team</h2>
         <ul style="display: flex; justify-content: center">
           <li
-            style="display: flex; flex-direction: column; align-items: center" class="team-member"
+            style="display: flex; flex-direction: column; align-items: center"
+            class="team-member"
           >
             <img
               src="./images/christopher-walker.jpg"
@@ -122,12 +126,15 @@
               width="270"
               height="368"
             />
-            <h3>Christopher Walker</h3>
-            <p>Product Designer</p>
+            <div class="member-info">
+              <h3>Christopher Walker</h3>
+              <p>Product Designer</p>
+            </div>
           </li>
 
           <li
-            style="display: flex; flex-direction: column; align-items: center" class="team-member"
+            style="display: flex; flex-direction: column; align-items: center"
+            class="team-member"
           >
             <img
               src="./images/kylie-evans.jpg"
@@ -135,12 +142,15 @@
               width="270"
               height="368"
             />
-            <h3>Kylie Evans</h3>
-            <p>Frontend Developer</p>
+            <div class="member-info">
+              <h3>Kylie Evans</h3>
+              <p>Frontend Developer</p>
+            </div>
           </li>
 
           <li
-            style="display: flex; flex-direction: column; align-items: center" class="team-member"
+            style="display: flex; flex-direction: column; align-items: center"
+            class="team-member"
           >
             <img
               src="./images/ryan-harris.jpg"
@@ -148,12 +158,16 @@
               width="270"
               height="368"
             />
-            <h3>Ryan Harris</h3>
-            <p>Marketing</p>
+
+            <div class="member-info">
+              <h3>Ryan Harris</h3>
+              <p>Marketing</p>
+            </div>
           </li>
 
           <li
-            style="display: flex; flex-direction: column; align-items: center" class="team-member"
+            style="display: flex; flex-direction: column; align-items: center"
+            class="team-member"
           >
             <img
               src="./images/tyler-moore.jpg"
@@ -161,8 +175,10 @@
               width="270"
               height="368"
             />
-            <h3>Tyler Moore</h3>
-            <p>UI Designer</p>
+            <div class="member-info">
+              <h3>Tyler Moore</h3>
+              <p>UI Designer</p>
+            </div>
           </li>
         </ul>
       </section>
