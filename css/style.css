@@ -370,6 +370,10 @@ h3 {
 .our-team {
   text-align: center;
   padding: 20px;
+  width: 1600px;
+  height: 648px;
+  top: 1449px;
+
 }
 
 .team-member {
@@ -462,3 +466,4 @@ p {
   margin: 0;
   padding: 10px 0;
 }
+
