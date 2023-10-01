@@ -116,6 +116,7 @@ h3 {
   letter-spacing: 0.03em;
   text-align: left;
   color: #212121;
+  margin-left: 20px;
 }
 
 .group1 p {
@@ -128,6 +129,8 @@ h3 {
   letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
+  padding: 20px;
+
 }
 .contacts {
   width: 231px;
@@ -167,7 +170,6 @@ h3 {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.03em;
-  display: flex;
   color: #757575;
 }
 
@@ -258,11 +260,17 @@ h3 {
 .colection-background {
   width: 1170px;
   height: 1360px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px;
   top: 174px;
   left: 215px;
   border: 1px;
   color: #ffffff;
 }
+
+
+
 .colection-background h3 {
   width: 322px;
   height: 36px;
@@ -300,6 +308,11 @@ h3 {
   border-radius: 0;
   font-family: inherit;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+  width: 100%;
+
 }
 .buttons-filters:focus {
   background: lightskyblue;
@@ -307,7 +320,22 @@ h3 {
 }
 
 .buttons-filters li button {
-  border: none;
+    width: 100%;
+    cursor: pointer;
+    padding: 0 15px;
+    white-space: nowrap; 
+}
+
+.buttons-filters ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0; 
+}
+
+.buttons-filters li {
+  flex: 1;
+  margin: 0 10px;
 }
 
 .top-line {
@@ -326,4 +354,5 @@ h3 {
   letter-spacing: 0.02em;
   text-align: left;
   color: #212121;
+
 }
