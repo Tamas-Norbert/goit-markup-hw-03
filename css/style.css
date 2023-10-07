@@ -269,6 +269,7 @@ h3 {
   left: 215px;
   border: 1px;
   color: #ffffff;
+  border-bottom: 20px;
 }
 
 .colection-background h3 {
@@ -464,6 +465,13 @@ margin-left: 25px;
 p {
   text-align: left;
   margin: 0;
-  padding: 10px 0;
 }
 
+.collection-item .item-content {
+  padding: 10px 0;
+  border: 2px solid #EEEEEE;
+}
+
+.container{
+  width: 1200px;
+}
