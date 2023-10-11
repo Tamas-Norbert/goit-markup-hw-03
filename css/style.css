@@ -159,7 +159,6 @@ h3 {
 .our-team h3 {
   width: 145px;
   height: 19px;
-  top: 1925px;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
@@ -172,7 +171,6 @@ h3 {
 .our-team p {
   width: 147px;
   height: 19px;
-  top: 1954px;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
@@ -364,12 +362,6 @@ h3 {
   list-style: none;
 }
 
-.our-team {
-  text-align: center;
-  padding: 20px;
-  width: 1600px;
-  height: 648px;
-}
 
 .team-member {
   display: flex;
@@ -378,20 +370,19 @@ h3 {
   margin: 20px;
 }
 
-.team-member img {
-  width: 270px;
-  height: 368px;
-}
+
 
 .team-member h3 {
-  margin-top: 10px;
   font-size: 16px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .team-member p {
   margin-top: 5px;
   font-size: 14px;
   text-align: center;
+  padding-left: 23px;
 }
 
 .button-container {
