@@ -7,46 +7,46 @@
   <title>goit-markup-hw-01</title>
   <link rel="stylesheet" href="./css/style.css" />
 </head>
-<!-- :TODO: reposition logo -->
 
 <body class="body-background-studio">
-  <div class="nav-links">
-    <header>
-      <div id="logo">
-        WebStudio
-        <span style="color: #2196f3">Web</span>
-        <span style="color: #000000">Studio</span>
-      </div>
-      <nav class="top-line">
-        <ul class="nav-list" style="display: flex; justify-content: center">
-          <li>
-            <a href="index.html" class="nav-link current">Studio</a>
-          </li>
-          <li>
-            <a href="portfolio.html" class="nav-link">Portfolio</a>
-          </li>
-          <li>
-            <a href="contacts.html" class="nav-link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-  </div>
 
-  <div class="contact-info">
-    <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
-    <a class="contacts" href="tel:+1 212-772-4150">+1 212-772-4150</a>
-  </div>
+    <div class="nav-links" style="display: flex; flex-direction: row;">
+      <header>
+        <div class="header-logo">
+          <span style="color: #2196f3">Web</span>
+          <span style="color: #000000">Studio</span>
+        </div>
+        <nav class="top-line">
+          <ul class="nav-list">
+            <li>
+              <a href="index.html" class="nav-link current">Studio</a>
+            </li>
+            <li>
+              <a href="portfolio.html" class="nav-link">Portfolio</a>
+            </li>
+            <li>
+              <a href="contacts.html" class="nav-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <div class="contact-info">
+      <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="contacts" href="tel:+1 212-772-4150">+1 212-772-4150</a>
+    </div>
+ 
+
 
   <main>
     <section>
-      <div class="main-section">
+      <div class="container" style="display: flex; flex-direction: column; align-items: center">
         <h1>
           EFFECTIVE SOLUTIONS FOR <br />
           YOUR BUSINESS
         </h1>
         <div class="button-container">
-          <button type="button" class="request-service">
+          <button type="button" class="request-button">
             Request our service
           </button>
         </div>
@@ -106,7 +106,7 @@
 
     <section class="our-team">
       <h2>Our Team</h2>
-      <ul style="display: flex; flex-direction: row; justify-content: center;">
+      <ul style="display: flex; flex-direction: row; justify-content: center">
         <li class="team-member">
           <img src="./images/christopher-walker.jpg" alt="christopher-walker" width="270" height="368" />
           <div style="display: flex; flex-direction: column; align-items: center">
