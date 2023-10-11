@@ -18,10 +18,12 @@ button:focus {
   background-color: var(--highlight-color);
   color: #fff;
 }
+
 a:hover,
 a:focus {
   color: var(--highlight-color);
 }
+
 :root {
   --text-color: #000;
   --background-color: #fff;
@@ -32,6 +34,7 @@ a:focus {
   color: var(--active-link);
   color: blue;
 }
+
 .main-navigation-studio:active,
 .main-navigation-studio:hover,
 .main-navigation-studio:focus,
@@ -40,6 +43,7 @@ a:focus {
 .main-navigation-studio:visited:focus {
   color: var(--active-link);
 }
+
 .main-navigation-studio:visited {
   color: var(--inactive-link1);
 }
@@ -50,6 +54,7 @@ a:focus {
   color: #ffffff;
   font-family: Roboto;
 }
+
 .body-background-studio {
   width: 1600px;
   height: 2348px;
@@ -58,6 +63,7 @@ a:focus {
   color: #ffffff;
   font-family: Roboto;
 }
+
 .main-section {
   background-color: #2f303a;
   width: 1500px;
@@ -94,9 +100,11 @@ h1 {
   cursor: pointer;
   margin-bottom: 200px;
 }
+
 .request-service:hover {
   color: #ffffff;
 }
+
 h2 {
   font-family: Roboto;
   font-size: 36px;
@@ -133,6 +141,7 @@ h3 {
   color: #757575;
   padding: 20px;
 }
+
 .contacts {
   width: 231px;
   height: 16px;
@@ -172,14 +181,13 @@ h3 {
   color: #757575;
 }
 
-.basement-background {
+.footer-background {
   width: 1600px;
   height: 251px;
-  top: 1628px;
   background-color: #2f303a;
-  padding-left: 250px;
 }
-.basement-address p {
+
+.footer-address p {
   width: 207px;
   height: 16px;
   top: 1747px;
@@ -191,7 +199,8 @@ h3 {
   text-align: left;
   color: #ffffff;
 }
-.basement-address a:first-child {
+
+.footer-address a:first-child {
   width: 231px;
   height: 16px;
   top: 1775px;
@@ -205,11 +214,9 @@ h3 {
   text-decoration: none;
 }
 
-.basement-address a:last-child {
+.footer-address a:last-child {
   width: 231px;
   height: 16px;
-  top: 1803px;
-  left: 215px;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
@@ -220,23 +227,24 @@ h3 {
   text-decoration: none;
 }
 
-.basement-address {
+.footer-address {
   width: 231px;
   height: 72px;
-  top: 1628;
-  left: 215px;
   font-family: Roboto;
   font-size: 14px;
   line-height: 1.5x;
   letter-spacing: 0.03em;
   text-align: left;
   font-style: normal;
+  padding-top: 24px;
 }
+.footer-address li {
+  margin: 7px 0;
+}
+
 .header-logo {
   width: 158px;
   height: 70px;
-  top: 24px;
-  left: 215px;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -244,11 +252,10 @@ h3 {
   letter-spacing: 0.03em;
   text-align: left;
 }
-.basement-background span {
+
+.footer-background span {
   width: 145px;
   height: 31px;
-  top: 1688px;
-  left: 215px;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -263,9 +270,6 @@ h3 {
   margin: 0 auto;
   padding: 20px;
   border: 1px;
-  top: 174px;
-  left: 215px;
-  border: 1px;
   color: #ffffff;
   border-bottom: 20px;
 }
@@ -273,8 +277,6 @@ h3 {
 .colection-background h3 {
   width: 322px;
   height: 36px;
-  top: 1010px;
-  left: 1039px;
   font-family: Roboto;
   font-size: 18px;
   font-weight: 700px;
@@ -287,8 +289,6 @@ h3 {
 .colection-background p {
   width: 322px;
   height: 30px;
-  top: 616px;
-  left: 639px;
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.5;
@@ -303,7 +303,6 @@ h3 {
   size: 16px;
   line-height: 1.5;
   height: 26px;
-  top: 180px;
   border-radius: 0;
   font-family: inherit;
   cursor: pointer;
@@ -314,6 +313,7 @@ h3 {
   margin-left: 330px;
   margin-top: 70px;
 }
+
 .buttons-filters:focus {
   background: lightskyblue;
   color: white;
@@ -345,8 +345,6 @@ h3 {
   color: #ffffff;
   width: 42px;
   height: 16px;
-  top: 32px;
-  left: 453px;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
@@ -371,8 +369,6 @@ h3 {
   padding: 20px;
   width: 1600px;
   height: 648px;
-  top: 1449px;
-
 }
 
 .team-member {
@@ -405,8 +401,6 @@ h3 {
   height: 100%;
 }
 
-
-
 .contact-info {
   display: flex;
   justify-content: flex-end;
@@ -418,7 +412,7 @@ h3 {
 
 .nav-link {
   text-decoration: none;
-  color: #ffffff; 
+  color: #ffffff;
   font-size: 18px;
   font-weight: 700;
 }
@@ -466,9 +460,15 @@ p {
 
 .collection-item .item-content {
   padding: 10px 0;
-  border: 2px solid #EEEEEE;
+  border: 2px solid #eeeeee;
 }
 
-.container{
+.container {
   width: 1600px;
+}
+
+.footer-logo {
+  width: 200px;
+  height: 31px;
+  padding-left: 40px;
 }
