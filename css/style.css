@@ -331,6 +331,9 @@ h3 {
 }
 
 .top-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   width: 1600px;
   height: 80px;
   border: 1px;
@@ -344,7 +347,6 @@ h3 {
   letter-spacing: 0.02em;
   text-align: left;
   color: #212121;
-  padding-top: 6px;
 }
 
 .image-list {
@@ -421,7 +423,7 @@ h3 {
   align-items: center;
   gap: 40px;
   margin: 0;
-  padding-left: 180px;
+  padding-left: 100px;
 }
 
 .colection-background {
